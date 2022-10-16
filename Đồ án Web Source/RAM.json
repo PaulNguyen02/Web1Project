@@ -1,0 +1,23 @@
+[{"MASP":"RAM210800095","Tên Ram":"KINGSTON Fury Beast 8GB","Giá":"859.000","Số lượng":"100","Hãng":"KINGSTON","Dung lượng":"8GB","Dòng":"DDR4","BUS":"3200MHz"},
+{"MASP":"RAM220303993","Tên Ram":"KINGSTON Fury Beast 16GB ","Giá":"1.600.000","Số lượng":"100","Hãng":"KINGSTON","Dung lượng":"16GB","Dòng":"DDR4","BUS":"3200MHz"},
+{"MASP":"RAM210800104","Tên Ram":"KINGSTON Fury Beast 32GB","Giá":"3.809.000","Số lượng":"100","Hãng":"KINGSTON","Dung lượng":"32GB","Dòng":"DDR4","BUS":"3600MHz"},
+{"MASP":"RAM 220609446","Tên Ram":"KINGSTON Fury Beast 64GB","Giá":"13.000.000","Số lượng":"100","Hãng":"KINGSTON","Dung lượng":"64GB","Dòng":"DDR5","BUS":"5600MHz"},
+ 
+{"MASP":"RAM19060012","Tên Ram":"Gigabyte 8GB","Giá":"850.000","Số lượng":"100","Hãng":"GIGABYTE","Dung lượng":"8GB","Dòng":"DDR4","BUS":"2666MHz"},
+{"MASP":"RAM220802794","Tên Ram":"GIGABYTE Aorus RGB 16GB","Giá":"2.950.000","Số lượng":"100","Hãng":"GIGABYTE","Dung lượng":"16GB","Dòng":"DDR4","BUS":"2666MHz"},
+{"MASP":"RAM220101747","Tên Ram":"GIGABYTE GP-ARS32G52D5 32GB","Giá":"7.450.000","Số lượng":"100","Hãng":"GIGABYTE","Dung lượng":"32GB","Dòng":"DDR5","BUS":"5200MHz"},
+{"MASP":"RAM200500325","Tên Ram":"GIGABYTE DESIGNARE Memory 64GB","Giá":"8.809.000","Số lượng":"100","Hãng":"GIGABYTE","Dung lượng":"64GB","Dòng":"DDR4","BUS":"3200MHz"},
+
+{"MASP":"RAM1600502","Tên Ram":"KINGMAX 4GB","Giá":"559.000","Số lượng":"100","Hãng":"KINGMAX","Dung lượng":"4GB","Dòng":"DDR4","BUS":"2400MHz"},
+{"MASP":"RAM18120175","Tên Ram":"KINGMAX 8GB","Giá":"800.000","Số lượng":"100","Hãng":"KINGMAX","Dung lượng":"8GB","Dòng":"DDR4","BUS":"2666MHz"},
+{"MASP":"RAM210602265","Tên Ram":"KINGMAX HEATSINK 16GB","Giá":"1.620.000","Số lượng":"100","Hãng":"KINGMAX","Dung lượng":"16GB","Dòng":"DDR4","BUS":"3200MHz"},
+{"MASP":"RAM 220201824","Tên Ram":"KINGMAX 32GB","Giá":"3.890.000","Số lượng":"100","Hãng":"KINGMAX","Dung lượng":"32GB","Dòng":"DDR5","BUS":"5200MHz"},
+
+{"MASP":"RAM1805452","Tên Ram":"G.SKILL Aegis F4 8GB","Giá":"720.000","Số lượng":"100","Hãng":"G.SKILL","Dung lượng":"8GB","Dòng":"DDR4","BUS":"2666MHz"},
+{"MASP":"RAM210503034","Tên Ram":"G.SKILL Trident Z RGB 16GB","Giá":"2.279.000","Số lượng":"100","Hãng":"G.SKILL","Dung lượng":"16GB","Dòng":"DDR4","BUS":"3200MHz"},
+{"MASP":"RAM220800725","Tên Ram":"G.SKILL TRIDENT Z RGB","Giá":"4.300.000","Số lượng":"100","Hãng":"G.SKILL","Dung lượng":"32GB","Dòng":"DDR4","BUS":"3600MHz"},
+{"MASP":"RAM220700438","Tên Ram":"G.SKILL Trident Z RGB 64GB","Giá":"8.290.000","Số lượng":"100","Hãng":"G.SKILL","Dung lượng":"64GB","Dòng":"DDR4","BUS":"3600MHz"},
+
+{"MASP":"RAM220303972","Tên Ram":"CORSAIR Vengeance LPX Heat 8GB","Giá":"970.000","Số lượng":"100","Hãng":"CONSAIR","Dung lượng":"8GB","Dòng":"DDR4","BUS":"3200MHz"},
+{"MASP":"RAM220303973","Tên Ram":"CORSAIR Vengeance LPX Black Heat 16GB","Giá":"1.890.000","Số lượng":"100","Hãng":"CONSAIR","Dung lượng":"16GB","Dòng":"DDR4","BUS":"3200MHz"},
+{"MASP":"RAM19050178","Tên Ram":"CORSAIR Vengeance RGB Pro 32GB","Giá":"4.139.000","Số lượng":"100","Hãng":"CONSAIR","Dung lượng":"32GB","Dòng":"DDR4","BUS":"3000MHz"}]
