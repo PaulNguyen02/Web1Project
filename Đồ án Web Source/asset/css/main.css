@@ -1,0 +1,107 @@
+#Header
+{
+    height: 100px;
+    background-color:var(--backcolor2);  
+    display: flex;
+    justify-content: space-between;  /*Dùng để cách 2 phần tử con ra xa trong 1 vùng chứa */
+}
+#Logo
+{
+    width:60px;
+    height: 80px;
+}
+#Banner
+{
+    width:60px;
+    height: 150px;
+}
+#nav-list
+{
+    margin-right: 20px;
+    margin-left: 50px;
+    list-style: none;
+}
+#search
+{
+    display: inline-block;
+}
+#listitem
+{
+    margin-right: 20px;
+    margin-left: 10px;
+    display: inline-block;    /*cho nội dung lên cùng 1 hàng*/
+}
+#itemlink
+{
+    display: inline-block;
+    text-decoration: none;
+}
+
+#Menu
+{
+    height: 50px;
+    background-color:var(--backcolor1); 
+    padding-top: 10px;
+    padding-right: 10px;
+}
+#MenuBar
+{
+    list-style: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+#MenuItem
+{
+    display: inline-block; 
+      
+}
+#itemlink1
+{
+    text-decoration: none;
+    display: inline-block;
+    color: var(--backcolor2);
+    text-align: center;
+    padding: 12px 10px;
+}
+#itemlink1:hover, #MenuItem:hover
+{
+    background-color: coral;
+}
+#MenuItem
+{
+    display: inline-block;
+}
+#dropdown-content
+{
+    display: none;
+    position:absolute;
+    background-color: var(--backcolor1);
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+}
+#dropdown-content a
+{
+    color:var(--backcolor2);
+    padding: 12px 15px;
+    text-decoration: none;
+    display:block;
+    text-align:left;
+}
+#dropdown-content a:hover
+{
+    background-color: coral;
+}
+#MenuItem:hover #dropdown-content
+{
+    display:block;
+}
+#Banner
+{
+    margin-top: 10px;
+    height: 300px;
+    width: auto;
+}
+
+
+
