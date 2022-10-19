@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Signup.css">
+    <script language="javascript" src="Signup.js"></script>
+    <title>Document</title>
+</head>
+<body>    
+    <center><div id="form">
+        <form method="POST">
+            <div class="imgcontainer">
+              <h3>Đăng ký</h3>
+              <img src="User.png" height="128" width="128" class="avatar">
+            </div>  
+            <div class="container">
+              <label><b>Số điện thoại</b></label>
+              <input id="phonenumber" type="text" placeholder="Nhập số điện thoại" name="uname" required>  
+              <label><b>Tên người dùng</b></label>
+              <input id="username" type="text" placeholder="Nhập tên người dùng" name="uname" required>                 
+              <label><b>Địa chỉ</b></label>
+              <input id="address" type="text" placeholder="Nhập địa chỉ " name="uname" required>   
+              <label><b>Mật khẩu</b></label>
+              <input id="password" type="password" placeholder="Nhập mật khẩu" name="psw" required>    
+              <button onclick="Add()" type="submit">Đăng ký</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Lưu mật khẩu
+              </label>
+            </div>    
+            <div class="container">
+              <button type="button" class="cancelbtn">Cancel</button>
+            </div>
+          </form>
+      </div></center>
+</body>
+</html>
