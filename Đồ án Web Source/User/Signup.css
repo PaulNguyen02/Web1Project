@@ -1,0 +1,77 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#background
+{
+    background-image: url('https://wallpapers.com/images/featured/murjp1nk4lp1idlt.jpg');
+    background-size: cover;
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+#overlay
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.3);
+}
+#form
+{
+    background-color: #FFF;
+    width: 300px;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 1);
+}
+#title
+{
+    padding-top: 5px;
+    font-weight: bold;
+}
+#content
+{
+    line-height: 3px;
+}
+input[type=text] 
+{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: darkgrey;
+}
+input[type=password]
+{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: darkgrey;
+}
+#control
+{
+    padding: 10px 20px 10px 20px;
+    line-height: 3px;
+}
+button{
+    margin-top: 10px;
+    width: 55%;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    color: #FFF;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+button:hover
+{
+    background-color:rgb(65, 66, 64);
+}
+a
+{
+    margin-right: 15px;
+}
+
