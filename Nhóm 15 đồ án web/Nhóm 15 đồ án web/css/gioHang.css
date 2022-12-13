@@ -1,0 +1,225 @@
+.listSanPham {
+	margin: 50px 50px 50px auto;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+/* thêm border và padding cho th */
+.listSanPham th {
+    border: 1px solid #ddd;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+.listSanPham td {
+    border: 1px solid #ddd;
+}
+
+/* Đổi màu button khi hover vào tr */
+.listSanPham tr:hover td button {
+    background-color: rgb(176, 212, 177)
+}
+
+/* Canh giữa cho cột stt và th */
+.listSanPham tr td:first-child, .listSanPham tr th {
+	text-align: center;
+}
+
+/* những tr chẵn sẽ có màu khác */
+.listSanPham tr:nth-of-type(even) {background-color: #f2f2f2;}
+
+/* Dòng tổng tiền thanh toán sẽ có màu đậm hơn */
+.listSanPham tr:not(:last-child):hover {background-color: #e5e2e2;}
+
+/* Last child là dòng tổng tiền */
+.listSanPham tr:last-child { background-color: #aaa; }
+
+/* Số lượng */
+.listSanPham .soluong {
+    text-align: center;
+}
+.listSanPham .soluong button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent; 
+}
+.listSanPham .soluong button:hover {
+    background-color: #4CAF50; 
+}
+.listSanPham .soluong input {
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    width: 5em;
+    height: 2em;
+}
+
+/* Link sản phẩm */
+.noPadding {
+    padding: 0 0 0 10px;
+    line-height: 2.5em;
+}
+.listSanPham td a {
+    display: block;
+    position: relative;
+    padding: 5px 0;
+}
+.listSanPham td a:hover {
+    text-decoration: underline;
+}
+
+/* Hình ảnh sản phẩm */
+.imgHide img {
+    position: absolute;
+    right: -130px;
+    width: 150px;
+    height: 0;
+    border-radius: 10px;
+    transition-duration: .1s;
+}
+.imgHide a:hover img {
+    height: 150px;
+}
+
+/* Cột Giá tiền canh lề phải */
+.alignRight {
+    text-align: right;
+    padding-right: 30px;  
+}
+
+
+
+/* Nút xóa */
+.fa-trash {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: #999;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+
+.fa-trash:hover {
+    color: red;
+    transform: scale(1.5)
+}
+
+/* Nút thanh toán */
+.thanhtoan {
+    font-size: 1.5em;
+    padding: 10px 15px;
+    font-weight: bold;
+    background-color: rgb(197, 223, 199);
+    cursor: pointer;
+    transition-duration: .2s;
+}
+.thanhtoan:hover {
+    background-color: #4CAF50; 
+}
+
+.xoaHet {
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+.xoaHet:hover {
+    background-color: rgb(224, 65, 65);
+}
+
+.total-calc{
+    min-height: 500px;
+    width: 23%;
+    float: right;
+    margin-top: 70px;
+}
+.sales-calc{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    position: relative;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    margin-top: 0px;
+    height: 40px;
+    margin-top: 0px;
+    margin-bottom: 0.5rem;
+    background: #F0F8FF;
+}
+.bill{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    position: relative;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    margin-top: 1rem;
+    height: 200px;
+    background: #F0F8FF;
+}
+.row1-bill{
+    height: 30px;
+    margin-top: 15px;
+}
+.row2-bill{
+    height: 30px;
+    margin-top: 15px;
+}
+.text-bill{
+    font-size: 15px;
+    float: left;
+}
+.price-bill{
+    font-size: 15px;
+    text-align: right;
+    float: right;
+    margin-right: 20px;
+}
+.submit-bill{
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    line-height: 1rem;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(20, 53, 195);
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+    border-style: none;
+    -webkit-user-select: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    text-decoration: none;
+    position: relative;
+    width: 100%;
+    height: 70px;
+    padding-top: 0.4rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 0;
+    font-size: 20px;
+}
