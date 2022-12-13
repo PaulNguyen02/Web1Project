@@ -1,0 +1,290 @@
+.main_container
+{
+    width: 100%;
+    height: auto;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Header     /*CSS cho header*/
+{
+    height: 100px;
+    background-color:var(--backcolor2);  
+    display: flex;
+    justify-content: space-between;  /*Dùng để cách 2 phần tử con ra xa trong 1 vùng chứa */
+}
+.Logo
+{
+    width:60px;
+    height: 80px;
+    margin-top: 10px;
+}
+.Brand     /* áp dụng css cho banner */
+{
+    margin-top: 10px;
+    height: 300px;
+    width: auto;
+}
+.nav-list
+{
+    margin-right: 20px;
+    margin-left: 50px;
+    list-style: none;
+}
+.nav-list .search
+{
+    display: inline-block;
+    background-color: var(--backcolor3);
+    border-radius: 15px;
+    width: auto;
+}
+.nav-list .search .textbox
+{
+    float: left;
+    padding: 3px 3px 3px 3px;
+}
+.nav-list .search .textbox input[type=text] 
+{
+    float: left;
+    border:none;
+    height: 35px;
+    border-radius: 15px;
+    font-size: 17px;
+    background-color: var(--backcolor3);
+}
+.nav-list .search .button
+{
+    position:relative;
+    float: left;
+    bottom: 5px;
+}
+.nav-list .search .button button
+{
+    border-radius: 15px;
+    height: 35px;
+    background-color:var(--backcolor1);
+}
+.nav-list .search {
+    float:left;
+}
+.nav-list .search button {
+    float: left;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+.nav-list .search button:hover {
+    background: #ccc;
+}
+.listitem
+{
+    margin-right: 20px;
+    margin-left: 10px;
+    display: inline-block;    /*cho nội dung lên cùng 1 hàng*/
+}
+.itemlink
+{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu               /*CSS cho Menu*/
+{
+    height: 50px;
+    background-color:var(--backcolor1); 
+    text-align: center;
+}
+.menubar
+{
+    list-style: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+.menuitem
+{
+    display: inline-block; 
+      
+}
+.itemlink1
+{
+    text-decoration: none;
+    display: inline-block;
+    color: var(--backcolor2);
+    text-align: center;
+    padding: 12px 10px;
+}
+.itemlink1:hover, .menuitem:hover
+{
+    background-color: coral;
+}
+
+.dropdown-content
+{
+    display: none;
+    position:absolute;
+    background-color: var(--backcolor1);
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+    z-index: 1;
+}
+.dropdown-content a
+{
+    color:var(--backcolor2);
+    padding: 12px 15px;
+    text-decoration: none;
+    display:block;
+    text-align:left;
+}
+.dropdown-content a:hover
+{
+    background-color: coral;
+}
+.menuitem:hover .dropdown-content
+{
+    display:block;
+}
+.footer                     /*CSS cho footer*/
+{
+    position:relative;
+    top:720px;
+    float: left;
+    border: 3px solid var(--backcolor1);
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.container
+{
+    margin-top: 15px;
+    padding: 0px 30px 0px 50px;
+}
+.customer
+{
+    width: 100%;
+    height: 180px;
+    background-color:white;
+}
+.customer_care
+{
+    float:left;
+}
+.title
+{
+    display: block;
+    line-height: 15px;
+    width: 100%;
+    float:left;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+a
+{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    margin-top: 5px;
+    color:black;
+    font-size:small;
+}
+.content
+{
+    font-size:small;
+    margin-bottom: 5px;
+}
+.link
+{
+    color:var(--backcolor1);
+}
+.insurance_policy
+{
+    float: left;
+    margin-left: 50px;
+}
+.information
+{
+    float: left;
+    margin-left: 50px;
+}
+.community
+{
+    float: left;
+    margin-left: 50px;
+}
+.contact
+{
+    float: left;
+    margin-left: 50px;
+}
+.social
+{
+    display: inline;
+    color: var(--backcolor1);
+}
+.banking
+{
+    width: 100%;
+    height: 100px;
+    background-color:white;
+}
+.paying_method
+{
+    float: left;
+    width: 25%;
+}
+.bank_list
+{
+    float: left;
+    width: 75%;
+}
+.about
+{
+    padding: 30px 30px 0px 50px;    
+    width: 100%;
+    height: 200px;  
+    background-color:var(--backcolor3); 
+}
+.col1
+{     
+    float: left;
+    width: 25%;
+}
+.col2
+{
+    float: left;
+    width: 35%;
+}
+.col3
+{
+    float: left;
+    width: 40%;
+}
+.icon
+{
+    float: left;
+    margin-right:15px;
+}
+.sub-title
+{
+    font-weight: bold;
+    font-size: small;
+}
+.body
+{
+    width: 100%;
+    background-color: var(--backcolor2);
+    float: left;
+}
+.Right_content
+{
+    width: 83%;
+    float: left;
+    margin-left: 15px;
+}
+
+
+
+
+

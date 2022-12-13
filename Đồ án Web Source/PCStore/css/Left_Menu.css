@@ -1,0 +1,80 @@
+.vertical_menu .Extend_List {        /*CSS cho ItemMenu cha */
+    background: var(--backcolor3);
+    width: 15%;
+    padding: 0;
+    list-style-type: none;
+    text-align:justify;
+    float: left;
+    border-radius: 15px;
+    margin-left: 10px;
+  }
+  .vertical_menu .MenuItem {
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid rgb(231, 224, 224);
+    padding: 0 1em;
+  }
+  .vertical_menu .MenuItem .directory {
+    text-decoration: none;
+    color: #333;
+    font-weight: 550;
+    display: block;
+  }
+  .vertical_menu .MenuItem:hover {
+    background-color:#4f3cc9;
+  }
+
+  .vertical_menu .Extend_List .MenuItem {
+    position: relative;
+   }
+   .vertical_menu .Extend_List1 {   /*CSS cho ItemMenu con */
+    position: absolute;
+    left: 200px;
+    top: 0;
+    display: none;
+    background-color: var(--backcolor3);
+    border-radius: 15px;
+    width:100%;
+    list-style: none;
+    font-weight: 550;
+    z-index: 1;
+    padding: 0;
+    text-align:center;
+   }
+   .vertical_menu .MenuItem1 {
+    border-bottom: 1px solid rgb(231, 224, 224);
+  }
+   .vertical_menu .MenuItem:hover .Extend_List1 {
+    display: block;
+   }
+   .vertical_menu .MenuItem1:hover
+   {
+     background-color:#4f3cc9;
+   }
+   
+   .vertical_menu .Extend_List2 {   /*CSS cho ItemMenu cháu */
+    position: absolute;
+    left: 200px;
+    top: 0;
+    display: none;
+    background-color: var(--backcolor3);
+    border-radius: 15px;
+    width:100%;
+    list-style: none;
+    font-weight: 550;
+    z-index: 1;
+    padding: 0;
+    text-align:center;
+   }
+   .vertical_menu .MenuItem2 {
+    border-bottom: 1px solid rgb(231, 224, 224);
+  }
+   .vertical_menu .MenuItem1:hover .Extend_List2 {
+    display: block;
+   }
+
+   .vertical_menu .MenuItem2:hover
+   {
+     background-color:#4f3cc9;
+   }

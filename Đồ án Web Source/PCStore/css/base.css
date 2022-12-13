@@ -1,0 +1,35 @@
+:root
+{
+    --backcolor1: #004aad;
+    --backcolor2: white;
+    --backcolor3: #e9ecf1;
+    --backcolor4: #ffb702;
+    --backcolor5: rgb(31, 177, 221);
+    --backcolor6: #71be34;
+    --backcolor7: #ff623d;
+    --backcolor8: #ea4c89;
+    --forecolor: black;
+}
+*
+{
+    box-sizing: inherit;
+}
+html{
+    font-size:medium;
+    line-height: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 1rem;
+}
+.grid
+{
+    width:1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid_row       /*Những thẻ nằm trong class này nằm hàng ngang*/
+{
+    display: flex;
+    flex-wrap: wrap;
+}

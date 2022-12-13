@@ -1,0 +1,133 @@
+@keyframes fadeIn
+{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes growth     /*dùng để chuyển động nổi form lên */
+{
+  from {
+    transform: scale(var(--growth-from));
+  }
+  to {
+    transform: scale(var(--growth-to));
+  }
+}
+.signup
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    display:flex;
+    visibility: hidden;
+    animation: fadeIn linear 0.1s;
+}
+.signup .wrap-image
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.signup .wrap-image .signup-form
+{
+    --growth-from: 0.7;
+    --growth-from: 1;
+    text-align: center;
+    height: auto;
+    width: 30%;
+    background-color: var(--backcolor2);
+    border-radius: 15px;
+    margin: auto;
+    position: relative;
+    top:20px;
+    animation: growth linear 0.1s;
+}
+.signup .wrap-image .bar .closesgpform
+{
+  position: relative;
+  left:97%;
+}
+.signup .wrap-image .bar .closesgpform .closesgpformbtn
+{
+  height: 35px;
+  width: 35px;
+  border-radius: 55px;
+  border: none;
+}
+.signup .wrap-image .bar .closesgnform .closesgpformbtn:hover
+{
+  background-color: var(--backcolor7);
+  color: var(--backcolor2);
+}
+.signup .wrap-image .signup-form .Title-form
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.signup .wrap-image .signup-form .title-form .content .fullname
+  {
+    width: 50%;
+    float: left;
+    height: 15px;
+  }
+  .signin .wrap-image .signup-form .title-form .content .address
+  {
+    width: 50%;
+    float: left;
+    height: 15px;
+  }
+  .signin .wrap-image .signup-form .title-form .content .phonenumber
+  {
+    width: 50%;
+    float: left;
+    height: 15px;
+  }
+.signup .wrap-image .signup-form .title-form .content .signupusername {
+    width: 50%;
+    float: left;
+    height: 15px;
+  }
+  .signup .wrap-image .signup-form .title-form .content .signuppsswd
+  {
+    width: 50%;
+    float: left;
+    height: 15px;
+  }
+  .signuptextfield
+  {
+    height: 25px;
+    width: 80%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  .signuppasswdchar
+  {
+    height: 25px;
+    width: 80%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  .signupbutton
+  {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    background-color: var(--backcolor1);
+    color: var(--backcolor2);
+    height: 35px;
+    width: 100px;
+    border-radius:8px;
+    border: none;
+  }
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
